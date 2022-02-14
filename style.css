@@ -1,0 +1,135 @@
+.body {
+
+    color: black;
+    margin: 10px;
+    padding: 4px 4px;
+    background: url('img/pic2.jpg') no-repeat center center/cover;
+
+}
+
+.header::before {
+    background: url('img/pic2.jpg') no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.left {
+    /*border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    padding-top: 2px 4px;
+}
+
+.left img {
+    width: 180px;
+}
+
+.left div {
+    text-align: center;
+    color: yellow;
+
+    line-height: 29px;
+    font-size: 18px;
+}
+
+.mid {
+    /* border: 2px solid green;*/
+
+    display: block;
+    width: 50%;
+    margin: 30px auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.right {
+    /*border: 2px solid blue;*/
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    margin: 30px auto;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: hotpink;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    text-decoration: none;
+    padding: 18px 15px;
+    margin: 20px auto;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.btn {
+    /*border: 2px solid rgb(112, 101, 101);*/
+    margin: 0px 9px;
+    background-color: white;
+    color: rgb(255, 106, 6);
+    padding: 3px 5px;
+
+    border-radius: 15px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: yellowgreen;
+}
+
+.container {
+    /*border: 2px solid grey;*/
+    color: yellow;
+    margin: 4px 2px;
+    padding: 2px 2px;
+    width: 43%;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.form-group input {
+    /*border: 2px solid blue;*/
+
+    text-align: center;
+    display: block;
+    width: 180px;
+    padding: 10px;
+    margin: 4px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 74%;
+    margin: 20px auto;
+
+}
